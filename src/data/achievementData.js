@@ -3,28 +3,29 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
+            title : 'Google Digital Garage certification',
+            details : 'Google Digital Garage certifications validate your expertise and showcase your ability to transform businesses and digital Marketing.',
+            date : 'Feb 5, 2021',
+            field:"Digital Marketing",
             image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Young Professional Certification',
+            details : 'Validate employability skills such as communication, collaboration, business etiquette, financial and digital literacy skills.',
+            date : 'Feb-March, 2021',
+            field:"Automation",
+            image : 'https://mma.prnewswire.com/media/1477373/TCS_Logo.jpg?p=facebook'
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Project Supervisor in NGOs Certification',
+            details : 'Project Supervisors enable development and execution of project deliverables, lead project planning, budgeting, action plans and monitoring processes.',
+            date : 'March 4, 2021',
+            field:"Education",
+            image : 'https://taxguru.in/wp-content/uploads/2020/08/NGO-Non-governmental-organization-word-cloud-isolated-on-white-background-1280x720.jpg'
         }
+
 
     ]
 }

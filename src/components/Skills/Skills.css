@@ -49,6 +49,9 @@
     justify-content: center;
     padding: 2rem 1rem;
     transition: 300ms ease-in-out;
+}.specific{
+    color: rgb(177, 177, 20);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
 .skill--box:hover  {
