@@ -16,7 +16,8 @@ import {
     FaInstagram,
     FaGitlab,
     FaMediumM,
-    FaFacebook
+    FaFacebook,
+    FaMail
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';

@@ -6,7 +6,8 @@
     'Redux',
     'Bootstrap',
     'Figma',
-    'Npm',
+     'Styled-Components'
+
   
 
 

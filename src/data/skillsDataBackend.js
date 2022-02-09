@@ -5,6 +5,7 @@ export const skillsDataBackend = [
     'Postman',
     'Firebase',
     'Express JS',
+    'Npm'
 
 
 

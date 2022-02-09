@@ -59,6 +59,7 @@ import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
 
+import postman from '../assets/svg/skills/postman.svg'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -75,28 +76,42 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
+import redux from '../assets/svg/skills/redux.svg'
+import npm from '../assets/svg/skills/npm.svg'
+import express from '../assets/svg/skills/express.svg'
+import node from '../assets/svg/skills/node.svg'
+import netlify from '../assets/svg/skills/netlify.svg'
+import heroku from '../assets/svg/skills/heroku.svg'
+import styled from '../assets/svg/skills/styled.svg'
+
+
+
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
-        case 'gcp':
-            return gcp;
+        case 'redux':
+            return redux;
+            case 'styled-components':
+                return styled;
         case 'html':
             return html;
         case 'photoshop':
             return photoshop;
-        case 'docker':
-            return docker;
-        case 'illustrator':
-            return illustrator;
-        case 'adobe xd':
-            return adobeXd;
-        case 'after effects':
-            return afterEffects;
+        case 'npm':
+            return npm;
+        case 'netlify':
+            return netlify;
+        case 'heroku':
+            return heroku;
+        case 'express js':
+            return express;
         case 'css':
             return css;
-        case 'angular':
-            return angular;
+        case 'postman':
+            return postman;    
+        case 'node js':
+            return node;
         case 'javascript':
             return javascript;
         case 'next js':
