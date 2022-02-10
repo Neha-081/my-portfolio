@@ -26,13 +26,13 @@
 }
 
 .navLink--container {
-    margin-top: 5rem;
+    width: 1700px;
+    background-color: rgb(221, 173, 17);
+    display: flex;
+    flex-direction: row;
+
 }
 
-.drawer > .MuiBackdrop-root {
-    background: rgba(33, 33, 33, 0.15) !important;
-    backdrop-filter: blur(20px) !important;
-}
 
 
 @media (max-width:1100px) {

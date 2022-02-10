@@ -68,6 +68,8 @@ function Landing() {
     const classes = useStyles();
 
     return (
+        <div>
+
         <div className='landing'>
             <div className='landing--container'>
                 <div
@@ -142,6 +144,7 @@ function Landing() {
                         )}
                     </div>
                 </div>
+
                 <img
                     src={headerData.image}
                     alt=''
@@ -172,7 +175,7 @@ function Landing() {
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Resume
                                     </Button>
                                 </a>
                             )}
@@ -190,6 +193,7 @@ function Landing() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
