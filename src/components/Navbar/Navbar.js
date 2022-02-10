@@ -33,34 +33,17 @@ function Navbar() {
             },
         },
 
-        closebtnIcon: {
-            fontSize: '2rem',
-            fontWeight: 'bold',
-            cursor: 'pointer',
-            color: theme.primary,
-            position: 'absolute',
-            right: 40,
-            top: 40,
-            transition: 'color 0.2s',
-            '&:hover': {
-                color: theme.tertiary,
-            },
-            [t.breakpoints.down('sm')]: {
-                right: 20,
-                top: 20,
-            },
-        },
         drawerItem: {
             margin: '2rem 2rem',
             borderRadius: '78.8418px',
             background: theme.secondary,
             color: theme.primary,
             width: '100%',
-            height: '60px',
+            height: '50px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-evenly',
-            padding: '0 30px 0 10px',
+            padding: '0 10px 0 10px',
             boxSizing: 'border-box',
             border: '2px solid',
             borderColor: theme.primary,
@@ -69,6 +52,7 @@ function Navbar() {
                 background: theme.primary,
                 color: theme.secondary,
             },
+            
             [t.breakpoints.down('sm')]: {
                 width: '100%',
                 padding: '0 25px',
@@ -77,8 +61,7 @@ function Navbar() {
         },
         drawerLinks: {
             fontFamily: 'var(--primaryFont)',
-            width: '50%',
-            fontSize: '1.3rem',
+            fontSize: '1.0rem',
             fontWeight: 600,
             [t.breakpoints.down('sm')]: {
                 fontSize: '1.125rem',
@@ -117,7 +100,7 @@ function Navbar() {
 
                 <div >
                     <div className='navLink--container'>
-                        <Fade left>
+                        <Fade>
                             <NavLink
                                 to='/#about'
                                 smooth={true}
@@ -135,13 +118,8 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-               
 
-           
-
-             
-
-                        <Fade left>
+                        <Fade >
                             <NavLink
                                 to='/#projects'
                                 smooth={true}
@@ -159,7 +137,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        <Fade>
                             <NavLink
                                 to='/#contacts'
                                 smooth={true}
