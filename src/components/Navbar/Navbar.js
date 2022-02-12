@@ -31,6 +31,7 @@ function Navbar() {
             [t.breakpoints.down('xs')]: {
                 fontSize: '2rem',
             },
+       
         },
 
         drawerItem: {
@@ -53,6 +54,7 @@ function Navbar() {
                 color: theme.secondary,
             },
             
+            
             [t.breakpoints.down('sm')]: {
                 width: '100%',
                 padding: '0 25px',
@@ -63,6 +65,7 @@ function Navbar() {
                 height: '40px',
                 fontSize:'5px',
                 margin: '5px 5px',
+                
               }
         },
         drawerLinks: {
@@ -105,7 +108,7 @@ function Navbar() {
        
                 <br />
 
-                <div >
+                <div className='mainnav'>
                     <div className='navLink--container '>
                         <Fade>
                             <NavLink

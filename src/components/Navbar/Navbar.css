@@ -61,6 +61,7 @@
     }
     .navbar--container > h1{
         font-size: 2rem;
+      display: none;
     }
     .nav-menu:hover{
         color: var(--primary-2);
@@ -69,8 +70,12 @@
       border-radius: 0 !important;
     }  .navLink--container {
         /* margin:0; */
-        width: 290px;
-    }.contactsec{
+        width: 240px;
+        margin-right: 50px;
+    }.mainnav{
+        margin-right: 70px;
+    }
+    .contactsec{
         display: none;
     }
 }
