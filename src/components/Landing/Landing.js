@@ -41,7 +41,9 @@ function Landing() {
             [t.breakpoints.down('sm')]: {
                 width: '180px',
             },
-           
+            "@media (max-width: 767px)": {
+              margin:'0 0 20px 0'
+              }
         },
         contactBtn: {
             backgroundColor: theme.primary,
