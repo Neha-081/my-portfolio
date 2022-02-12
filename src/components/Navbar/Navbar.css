@@ -70,6 +70,8 @@
     }  .navLink--container {
         /* margin:0; */
         width: 290px;
+    }.contactsec{
+        display: none;
     }
 }
 

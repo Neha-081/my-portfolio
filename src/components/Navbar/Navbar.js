@@ -106,7 +106,7 @@ function Navbar() {
                 <br />
 
                 <div >
-                    <div className='navLink--container'>
+                    <div className='navLink--container '>
                         <Fade>
                             <NavLink
                                 to='/#about'
@@ -144,7 +144,8 @@ function Navbar() {
                             </NavLink>
                         </Fade>
               
-                        <Fade>
+                        <Fade >
+                            <div className='contactsec'>
                             <NavLink
                                 to='/#contacts'
                                 smooth={true}
@@ -158,6 +159,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
+                            </div>
                         </Fade>
                     </div>
                 </div>
