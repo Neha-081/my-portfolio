@@ -58,6 +58,12 @@ function Navbar() {
                 padding: '0 25px',
                 height: '55px',
             },
+            "@media (max-width: 767px)": {
+                width: '70%',
+                height: '40px',
+                fontSize:'5px',
+                margin: '5px 5px',
+              }
         },
         drawerLinks: {
             fontFamily: 'var(--primaryFont)',
@@ -71,7 +77,8 @@ function Navbar() {
             fontSize: '1.6rem',
             [t.breakpoints.down('sm')]: {
                 fontSize: '1.385rem',
-            },
+            },           
+ 
         },
     }));
 
@@ -136,7 +143,7 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
-
+              
                         <Fade>
                             <NavLink
                                 to='/#contacts'

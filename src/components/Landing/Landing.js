@@ -8,6 +8,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
+
 import {
     FaTwitter,
     FaLinkedin,
@@ -40,6 +41,9 @@ function Landing() {
             [t.breakpoints.down('sm')]: {
                 width: '180px',
             },
+            "@media (max-width: 767px)": {
+              margin:'0 0 30px 0'
+              }
         },
         contactBtn: {
             backgroundColor: theme.primary,
@@ -162,7 +166,7 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
+                        <h6 className='title'>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
                         <p>{headerData.desciption}</p>
 

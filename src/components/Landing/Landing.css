@@ -134,6 +134,8 @@
 @media (max-width: 900px) {
   .landing--img {
     --img-size: 300px;
+  }.lcr--content{
+
   }
 
   .landing--social {
@@ -189,7 +191,6 @@
     padding: 0 2rem;
   }
   .lcr--content {
-    margin-top: 20%;
     margin-right: initial;
     width: 100%;
   }
@@ -226,12 +227,16 @@
 @media (max-width: 370px) {
   .lcr--content {
     margin-top: 60%;
+  }.title{
+    display: none;
   }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
   .landing {
     height: 100%;
+  }.title{
+    display: none;
   }
 
   .landing--img {

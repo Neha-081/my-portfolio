@@ -1,6 +1,6 @@
 import one from '../assets/png/rhome.png'
 import two from '../assets/png/homepage.png'
-import three from '../assets/png/maze.png'
+// import three from '../assets/png/maze.png'
 import four from '../assets/png/youtube.png'
 import five from '../assets/png/movie.png'
 import six from '../assets/png/tictac.gif'
@@ -27,15 +27,7 @@ export const projectsData = [
         demo: 'https://neha-test-1.herokuapp.com/users/indexx',
         image: two
     },
-    {
-        id: 3,
-        projectName: 'Maze Game',
-        projectDesc: 'A puzzle games where a player moves in complex and branched passages to find a particular target or location.',
-        tags: ['JavaScript', 'CSS','HTML', 'Material JS'],
-        code: 'https://github.com/Neha-081/maze-game',
-        demo: 'https://maze-game-neha.netlify.app/',
-        image: three
-    },
+
     {
         id: 4,
         projectName: 'Youtube Clone',
