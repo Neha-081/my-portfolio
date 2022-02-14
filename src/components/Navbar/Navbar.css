@@ -54,9 +54,13 @@
     .navLink--container {
         margin:0;
         
-    }.navLink--container div {
+    }.navLink--container div{
         margin:5px;
-        width: 100px;
+        width: 85px;
+        font-size: 15px;
+        
+    }.navLink--container span {
+        font-size: 14px;
         
     }
 }
