@@ -146,6 +146,26 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
+
+                        <Fade >
+                            <NavLink
+                                to='/#skills'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className='skillsec'>
+                                <div className={classes.drawerItem}>
+                                    <FaFolderOpen
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Skills
+                                    </span>
+                                </div>
+                                </div>
+                            </NavLink>
+                        </Fade>
               
                         <Fade >
                             <div className='contactsec'>

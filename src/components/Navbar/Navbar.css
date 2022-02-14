@@ -75,7 +75,7 @@
     }.mainnav{
         margin-right: 70px;
     }
-    .contactsec{
+    .contactsec,.skillsec{
         display: none;
     }
 }
