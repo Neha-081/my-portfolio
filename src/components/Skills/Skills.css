@@ -22,7 +22,7 @@
 }
 
 .skillsContainer {
-    font-family: var(--primaryFont);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     display: flex;
     align-items: center;
     justify-content: center; 
