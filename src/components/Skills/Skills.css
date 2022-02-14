@@ -22,6 +22,7 @@
 }
 
 .skillsContainer {
+    font-family: var(--primaryFont);
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -50,7 +51,7 @@
     padding: 2rem 1rem;
     transition: 300ms ease-in-out;
 }.specific{
-    color: #f56539;
+    color: #10b42b;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
