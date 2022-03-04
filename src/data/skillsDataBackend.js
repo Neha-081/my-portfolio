@@ -17,7 +17,7 @@ export const skillsDataBackend = [
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
 
 
-// AVAILABLE SKILLS
+
 
 /* 
     HTML
