@@ -1,6 +1,6 @@
 import one from '../assets/png/rhome.png'
 import two from '../assets/png/homepage.png'
-// import three from '../assets/png/maze.png'
+import three from '../assets/png/realmeNav.png'
 import four from '../assets/png/youtube.png'
 import five from '../assets/png/movie.png'
 import six from '../assets/png/tictac.gif'
@@ -11,6 +11,15 @@ import eight from '../assets/png/todo.png'
 export const projectsData = [
     {
         id: 1,
+        projectName: 'Realme Clone',
+        projectDesc: 'This project involves the development of an realme website application which enables user to search any realme products.',
+        tags: ['ReactJS','Redux','Bootstrap','Firebase','CSS'],
+        code: 'https://github.com/Neha-081/Realme-Clone',
+        demo: 'https://realme-clone-081.netlify.app/',
+        image: three
+    },
+    {
+        id: 2,
         projectName: 'Heart Clothing',
         projectDesc: 'This project aims to build an clothing management system that consolidates all   Ecommerce functionality',
         tags: ['React','Redux','Firebase','Redux-saga'],
@@ -19,7 +28,7 @@ export const projectsData = [
         image: one
     },
     {
-        id: 2,
+        id: 3,
         projectName: 'Internshala Clone',
         projectDesc: 'This project is a internship platform that allows users to obtain internships,courses and trainings.',
         tags: ['EJS','Express','Node','Mongodb'],
@@ -27,6 +36,7 @@ export const projectsData = [
         demo: 'https://neha-test-1.herokuapp.com/users/indexx',
         image: two
     },
+
 
     {
         id: 4,
