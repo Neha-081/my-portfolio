@@ -15,7 +15,7 @@ export const projectsData = [
         projectDesc: 'This project involves the development of an realme website application which enables user to search any realme products.',
         tags: ['ReactJS','Redux','Bootstrap','Firebase','CSS'],
         code: 'https://github.com/Neha-081/Realme-Clone',
-        demo: 'https://realme-clone-081.netlify.app/',
+        demo: 'https://realme-clone081.netlify.app/',
         image: three
     },
     {
