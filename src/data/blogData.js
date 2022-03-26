@@ -14,7 +14,7 @@ export const blogData = [
         title: 'WOMENS DAY',
         description: 'When you educate a man, you educate an individual and when you educate a woman, you educate an entire family',
         date: 'March 8, 2021',
-        image: 'https://media-exp1.licdn.com/dms/image/C5622AQHX2VMS20yhbQ/feedshare-shrink_2048_1536/0/1615188771550?e=1647475200&v=beta&t=yH59YGSXSlmWCvi9ZlpHViW79rHVwTE28H9xF8ljt-A',
+        image: 'https://media-exp1.licdn.com/dms/image/C5622AQHX2VMS20yhbQ/feedshare-shrink_2048_1536/0/1615188771550?e=1651104000&v=beta&t=Gh1s3L-UUX8gVfd8lHtiw81C91vZvoyNFxrv43e-98Y',
         url: 'https://www.linkedin.com/posts/neha-prajapati-1150_happywomensday-education-activity-6774592728459304960-y87r'
     },
     {
