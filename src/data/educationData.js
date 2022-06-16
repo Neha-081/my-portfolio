@@ -18,6 +18,6 @@ export const educationData = [
         institution: 'Army Institute of Management & Technology, Greater Noida(UP)',
         course: 'Master of Business Administration (IT & Operations)',
         startYear: '2020',
-        endYear: 'Present'
+        endYear: '2022'
     },
 ]
